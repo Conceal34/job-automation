@@ -1,0 +1,17 @@
+[
+  {
+    "name": "BrowserStack",
+    "ats": "greenhouse",
+    "boardToken": "browserstack"
+  },
+  {
+    "name": "Vercel",
+    "ats": "lever",
+    "boardToken": "vercel"
+  },
+  {
+    "name": "Notion",
+    "ats": "greenhouse",
+    "boardToken": "notion"
+  }
+]
