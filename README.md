@@ -1,50 +1,102 @@
-# 🚀 Automated Job Hunt Scraper
+# 🚀 Job Scraper Automation (Fresher SDE Edition)
 
-An intelligent, fully automated job hunting bot designed for Software Engineering Freshers. It scans hundreds of career portals and APIs every 6 hours, filters for specific fresher-level tech roles in India/Remote, sends you email alerts, and automatically schedules "Apply" tasks in Google Tasks!
+A fully autonomous, self-scheduling job hunting machine built specifically for entry-level Software Engineering (SDE/SWE) roles in India and remote environments. 
 
-## 🧠 How it Works
-1. **GitHub Actions (Cron Job)**: Wakes up every 6 hours automatically (24/7, for free).
-2. **Hybrid Fetching**:
-    * **Direct API**: Hits Greenhouse & Lever public JSON APIs for instant results.
-    * **Headless Puppeteer**: Spawns a Chromium browser to physically scrape custom portals (Unstop, Talent500, Cutshort, HackerEarth, etc.).
-    * **RapidAPI JSearch Fallback**: Queries a universal job API for companies using custom/unsupported ATS systems like Workday.
-3. **Smart Filtering**: Uses strict Regex to only capture Software Engineer, SDE, SRE, and Intern roles, while aggressively filtering out Senior, L4+, Mid-level, Sales, and non-tech roles.
-4. **State Management (`seen_jobs.json`)**: Automatically commits its memory back to the repository so you **never** receive duplicate alerts for the same job.
+This bot runs 24/7 on GitHub Actions, scrapes hundreds of companies and platforms, strictly filters out irrelevant roles, alerts you via email, and directly inserts applications into your Google Tasks to-do list.
 
-## 🛠️ Setup Instructions
+---
 
-### 1. Google Tasks Setup
-1. Go to the [Google Cloud Console](https://console.cloud.google.com/) and create a project.
-2. Enable the **Google Tasks API**.
-3. Create **OAuth Client ID** credentials (choose "Desktop app").
-4. Add the `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` to your `.env` file.
-5. Run `node get_credentials.js` in your terminal to get the `GOOGLE_REFRESH_TOKEN`.
+## 🏗️ Architecture & Features
 
-### 2. Resend Email Setup
-1. Go to [Resend.com](https://resend.com) and create an account.
-2. Generate an API key. This gives you 3,000 free emails per month.
-3. Save it to your `.env` as `RESEND_API_KEY`.
+### 1. The Hybrid Scraper Engine
+To maximize coverage without breaking rate limits, the bot uses three distinct scraping methods:
+* **Direct ATS APIs:** Instantly fetches live jobs from companies using **Greenhouse** and **Lever** using their public, unauthenticated JSON endpoints.
+* **RapidAPI JSearch Fallback:** For companies using custom portals or heavy enterprise ATS systems (like Workday), it falls back to a universal job aggregator API to find their listings.
+* **Headless Puppeteer Scrapers:** Physically boots up a headless Chromium browser to navigate and scrape web portals that don't have public APIs, including:
+  * **Unstop**
+  * **Talent500**
+  * **Cutshort**
+  * **HackerEarth**
+  * **Lets-Code**
+  * Custom heuristic scraping for the top 50 priority companies on your target list.
 
-### 3. RapidAPI Fallback Setup
-1. Go to [JSearch on RapidAPI](https://rapidapi.com/search/JSearch).
-2. Subscribe to the Basic (Free) tier (50 requests/month).
-3. Grab the `X-RapidAPI-Key` from the Endpoints tab.
-4. Save it to your `.env` as `RAPIDAPI_KEY`.
+### 2. Sniper-Level Smart Filtering
+You will not receive spam. The bot uses strict Regular Expressions to ensure roles perfectly match your profile:
+* **Role Inclusions:** Must exactly match words like `swe`, `sde`, `sre`, `software`, `intern`, `fresher`, `developer`, `engineer`, `frontend`, `backend`, or `fullstack`.
+* **Aggressive Exclusions (Roles):** Instantly drops anything containing `sales`, `marketing`, `hr`, `finance`, `executive`, `trainee`, or `support`.
+* **Aggressive Exclusions (Experience):** Explicitly filters out mid-level and senior roles by looking for markers like `senior`, `staff`, `lead`, `manager`, `principal`, `director`, `vp`, `ii`, `iii`, `iv`, `v`, `l3`, `l4`, `l5`, `l6`, `mid`, `mid-level`, and `experienced`.
+* **Location Filtering:** Strictly requires the location to match `India`, `Remote`, `Bengaluru`, `Mumbai`, `Pune`, `Hyderabad`, `Gurugram`, `Noida`, `Delhi`, `Chennai`, or `Anywhere`.
 
-## ☁️ Deployment (GitHub Actions)
-To run this automatically in the cloud:
+### 3. Persistent Memory (Git Scraping)
+Because GitHub Actions resets the server after every run, the bot maintains a `seen_jobs.json` file. After it runs, it commits this file back to the repository. This guarantees you will **never be notified about the same job twice**.
+
+---
+
+## 🏢 Target Companies
+This repository is pre-loaded with a `companies.json` file containing **350 target companies** heavily curated for your profile (combining mid-market product companies, startups, and specific IT services). 
+
+* **To add a company:** Open `companies.json` and add a new JSON object. 
+* If you know they use Greenhouse or Lever, set `"ats": "greenhouse"` or `"ats": "lever"` and provide their URL token in `"boardToken"`.
+* If you don't know their ATS, set `"ats": "unknown"`. The bot will automatically use the JSearch fallback API for them!
+
+---
+
+## 🛠️ Step-by-Step Setup Guide
+
+To get this running on your own GitHub account, you need to set up three free services.
+
+### Phase 1: Google Tasks Authentication
+The bot needs permission to add tasks to your personal Google account.
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
+2. Click the top-left dropdown and click **New Project**. Name it "JobBot".
+3. Search for **Google Tasks API** in the top search bar and click **Enable**.
+4. Go to **APIs & Services > OAuth consent screen**. Choose **External**, fill in the required names, and add your own Gmail address under "Test users".
+5. Go to **Credentials**, click **Create Credentials**, and select **OAuth client ID**. Choose **Desktop app**.
+6. Copy the `Client ID` and `Client Secret`.
+7. On your local computer, create a `.env` file in this folder and add:
+   ```env
+   GOOGLE_CLIENT_ID=your_client_id_here
+   GOOGLE_CLIENT_SECRET=your_client_secret_here
+   ```
+8. Run `node get_credentials.js` in your terminal. It will give you a link. Click it, log in with your Google account, and copy the `Refresh Token` it prints in the terminal.
+
+### Phase 2: Resend Email Setup
+This prevents your emails from going to spam and avoids Google blocking automated logins.
+1. Go to [Resend.com](https://resend.com) and log in with GitHub.
+2. Click **API Keys** on the left sidebar.
+3. Click **Create API Key**, name it "JobBot", and click Add.
+4. **Copy the key immediately** (it starts with `re_...`).
+
+### Phase 3: RapidAPI JSearch (The Fallback Engine)
+1. Go to the [JSearch API on RapidAPI](https://rapidapi.com/letscrape-6bRBa3QG1q/api/jsearch).
+2. Log in with GitHub or Google.
+3. Click the **Pricing** tab and subscribe to the **Basic (Free)** tier.
+4. Click the **Endpoints** tab. On the right side, under "Header Parameters", copy the long string next to `X-RapidAPI-Key`.
+
+### Phase 4: GitHub Deployment
 1. Push this code to a **private** GitHub repository.
-2. Go to **Settings > Secrets and variables > Actions** and add these repository secrets:
-   * `RESEND_API_KEY`
-   * `NOTIFICATION_EMAIL` (Your email address)
-   * `GOOGLE_CLIENT_ID`
-   * `GOOGLE_CLIENT_SECRET`
-   * `GOOGLE_REFRESH_TOKEN`
-   * `RAPIDAPI_KEY`
-3. Go to **Settings > Actions > General > Workflow permissions** and select **Read and write permissions** (Required to save the `seen_jobs.json` file).
-4. Go to the **Actions** tab and trigger the workflow manually for the first run!
+2. Go to the repository on GitHub, click **Settings > Secrets and variables > Actions**.
+3. Click **New repository secret** and add the following exactly:
+   * `RESEND_API_KEY`: (Your Resend Key)
+   * `NOTIFICATION_EMAIL`: (Your personal Gmail address where you want to receive alerts)
+   * `GOOGLE_CLIENT_ID`: (From Phase 1)
+   * `GOOGLE_CLIENT_SECRET`: (From Phase 1)
+   * `GOOGLE_REFRESH_TOKEN`: (From Phase 1)
+   * `RAPIDAPI_KEY`: (From Phase 3)
+4. On the left sidebar of Settings, click **Actions > General**. Scroll down to **Workflow permissions** and select **Read and write permissions**. (If you don't do this, the bot cannot save its memory!).
 
-## 📝 Modifying Target Companies
-To add or remove target companies, simply edit the `companies.json` file.
-* If you know they use Greenhouse or Lever, add `"ats": "greenhouse"` (or lever) and provide the `"boardToken"`.
-* If you don't know, leave `"ats": "unknown"` and the RapidAPI fallback will handle it automatically!
+### Phase 5: Liftoff! 🚀
+1. Click the **Actions** tab at the top of your GitHub repository.
+2. Click **Job Scraper Automation** on the left.
+3. Click **Run workflow** on the right side.
+
+From now on, it will automatically run every 6 hours silently in the background!
+
+---
+
+## 💻 Local Testing
+If you ever want to test the bot manually on your computer:
+1. Ensure your `.env` file has all the keys from the GitHub secrets.
+2. Run `npm install` (if you haven't already).
+3. Run `node index.js`.
+4. Watch the terminal output as it scrapes the web!
