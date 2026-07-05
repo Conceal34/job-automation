@@ -2,6 +2,7 @@ require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const { fetchAllJobs } = require('./fetchers');
+const { runCustomScrapers } = require('./platform_scrapers');
 const { sendEmailNotification } = require('./notifier');
 const { addJobsToTasks } = require('./tasks');
 
@@ -20,22 +21,29 @@ async function run() {
         seenJobs = JSON.parse(fs.readFileSync(SEEN_JOBS_FILE, 'utf8'));
     }
 
-    // Fetch jobs
-    const allJobs = await fetchAllJobs(companies);
+    // Fetch API jobs
+    let allJobs = await fetchAllJobs(companies);
+    
+    // Run custom Puppeteer scrapers for the platforms & top 50 companies
+    console.log('Running headless browser scrapers...');
+    const topCompanies = companies.slice(0, 50); // Get the first 50 companies
+    const customJobs = await runCustomScrapers(topCompanies);
+    allJobs = allJobs.concat(customJobs);
+
     
     // Filter new jobs
     const newJobs = allJobs.filter(job => !seenJobs.includes(job.id));
     
     console.log(`Found ${newJobs.length} new jobs matching criteria.`);
 
-    if (newJobs.length > 0) {
-        // Send email
-        if (process.env.RESEND_API_KEY) {
-            await sendEmailNotification(newJobs);
-        } else {
-            console.log('Skipping email: RESEND_API_KEY not configured.');
-        }
+    // Send email always (even if 0 jobs found)
+    if (process.env.RESEND_API_KEY) {
+        await sendEmailNotification(newJobs);
+    } else {
+        console.log('Skipping email: RESEND_API_KEY not configured.');
+    }
 
+    if (newJobs.length > 0) {
         // Add to Google Tasks
         if (process.env.GOOGLE_REFRESH_TOKEN) {
             await addJobsToTasks(newJobs);

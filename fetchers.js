@@ -1,14 +1,22 @@
 const axios = require('axios');
 
-const ROLE_KEYWORDS = ['swe', 'software', 'sde', 'sre', 'intern', 'fresher', 'developer', 'engineer'];
-const EXCLUDE_KEYWORDS = ['senior', 'staff', 'lead', 'manager', 'principal', 'director', 'vp'];
+const ROLE_REGEX = /\b(swe|sde|sre|software|intern|fresher|developer|engineer|frontend|backend|fullstack)\b/i;
+const EXCLUDE_REGEX = /\b(senior|staff|lead|manager|principal|director|vp|sales|marketing|hr|finance|executive|trainee|support|ii|iii|iv|v|l3|l4|l5|l6|mid|mid-level|experienced)\b/i;
+const LOCATION_KEYWORDS = ['india', 'remote', 'bengaluru', 'bangalore', 'mumbai', 'pune', 'hyderabad', 'gurugram', 'gurgaon', 'noida', 'delhi', 'chennai', 'anywhere'];
 
-function isRelevantJob(title) {
+function isRelevantJob(title, location) {
     if (!title) return false;
-    const lowerTitle = title.toLowerCase();
-    const hasRole = ROLE_KEYWORDS.some(kw => lowerTitle.includes(kw));
-    const isExcluded = EXCLUDE_KEYWORDS.some(kw => lowerTitle.includes(kw));
-    return hasRole && !isExcluded;
+    const hasRole = ROLE_REGEX.test(title);
+    const isExcluded = EXCLUDE_REGEX.test(title);
+    
+    // Check location
+    let isGoodLocation = true;
+    if (location) {
+        const lowerLoc = location.toLowerCase();
+        isGoodLocation = LOCATION_KEYWORDS.some(kw => lowerLoc.includes(kw));
+    }
+
+    return hasRole && !isExcluded && isGoodLocation;
 }
 
 async function fetchGreenhouseJobs(boardToken) {
@@ -17,7 +25,7 @@ async function fetchGreenhouseJobs(boardToken) {
         const response = await axios.get(url, { validateStatus: () => true });
         const jobs = response.data.jobs || [];
         return jobs
-            .filter(job => isRelevantJob(job.title))
+            .filter(job => isRelevantJob(job.title, job.location?.name))
             .map(job => ({
                 id: `gh_${job.id}`,
                 title: job.title,
@@ -37,7 +45,7 @@ async function fetchLeverJobs(boardToken) {
         const response = await axios.get(url, { validateStatus: () => true });
         const jobs = response.data || [];
         return jobs
-            .filter(job => isRelevantJob(job.text))
+            .filter(job => isRelevantJob(job.text, job.categories?.location))
             .map(job => ({
                 id: `lv_${job.id}`,
                 title: job.text,
@@ -70,13 +78,15 @@ async function fetchJSearchJobs(companyName) {
             headers: {
                 'X-RapidAPI-Key': process.env.RAPIDAPI_KEY,
                 'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
-            }
+            },
+            validateStatus: () => true
         };
 
         const response = await axios.request(options);
+        if (response.status !== 200) return [];
         const jobs = response.data.data || [];
         return jobs
-            .filter(job => isRelevantJob(job.job_title))
+            .filter(job => isRelevantJob(job.job_title, job.job_city || job.job_country))
             .map(job => ({
                 id: `js_${job.job_id}`,
                 title: job.job_title,
