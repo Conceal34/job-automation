@@ -1,17 +1,1944 @@
 [
   {
+    "name": "5Paisa",
+    "url": "https://www.5paisa.com/careers",
+    "ats": "unknown",
+    "boardToken": "5paisa"
+  },
+  {
+    "name": "7-Eleven",
+    "ats": "unknown",
+    "boardToken": "7eleven"
+  },
+  {
+    "name": "Acko",
+    "url": "https://www.acko.com/careers",
+    "ats": "unknown",
+    "boardToken": "acko"
+  },
+  {
+    "name": "AIG",
+    "ats": "unknown",
+    "boardToken": "aig"
+  },
+  {
+    "name": "Air France-KLM",
+    "ats": "unknown",
+    "boardToken": "airfranceklm"
+  },
+  {
+    "name": "Airmeet",
+    "url": "https://www.airmeet.com/careers",
+    "ats": "unknown",
+    "boardToken": "airmeet"
+  },
+  {
+    "name": "Akamai Technologies",
+    "ats": "unknown",
+    "boardToken": "akamaitechnologies"
+  },
+  {
+    "name": "Allianz Technology",
+    "ats": "unknown",
+    "boardToken": "allianztechnology"
+  },
+  {
+    "name": "Amaha (InnerHour)",
+    "url": "https://www.amahahealth.com/careers",
+    "ats": "unknown",
+    "boardToken": "amahainnerhour"
+  },
+  {
+    "name": "AMD",
+    "ats": "unknown",
+    "boardToken": "amd"
+  },
+  {
+    "name": "American Express",
+    "ats": "unknown",
+    "boardToken": "americanexpress"
+  },
+  {
+    "name": "Analog Devices",
+    "ats": "unknown",
+    "boardToken": "analogdevices"
+  },
+  {
+    "name": "Angel One",
+    "url": "https://www.angelone.in/careers",
+    "ats": "unknown",
+    "boardToken": "angelone"
+  },
+  {
+    "name": "Applied Materials",
+    "ats": "unknown",
+    "boardToken": "appliedmaterials"
+  },
+  {
+    "name": "ArcelorMittal India",
+    "ats": "unknown",
+    "boardToken": "arcelormittalindia"
+  },
+  {
+    "name": "AstraZeneca",
+    "ats": "unknown",
+    "boardToken": "astrazeneca"
+  },
+  {
+    "name": "Atlan",
+    "ats": "unknown",
+    "boardToken": "atlan"
+  },
+  {
+    "name": "Autodesk",
+    "ats": "unknown",
+    "boardToken": "autodesk"
+  },
+  {
+    "name": "Aviva",
+    "ats": "unknown",
+    "boardToken": "aviva"
+  },
+  {
+    "name": "Axis Bank",
+    "url": "https://www.axisbank.com/about-us/careers",
+    "ats": "unknown",
+    "boardToken": "axisbank"
+  },
+  {
+    "name": "Baker Hughes",
+    "ats": "unknown",
+    "boardToken": "bakerhughes"
+  },
+  {
+    "name": "Barclays",
+    "url": "https://search.jobs.barclays/",
+    "ats": "workday",
+    "boardToken": "barclays"
+  },
+  {
+    "name": "Best Buy India",
+    "ats": "unknown",
+    "boardToken": "bestbuyindia"
+  },
+  {
+    "name": "Bewakoof",
+    "url": "https://www.bewakoof.com/careers",
+    "ats": "unknown",
+    "boardToken": "bewakoof"
+  },
+  {
+    "name": "BharatPe",
+    "url": "https://www.bharatpe.com/careers",
+    "ats": "unknown",
+    "boardToken": "bharatpe"
+  },
+  {
+    "name": "Biryani By Kilo",
+    "url": "https://www.biryanibykilo.com/careers",
+    "ats": "unknown",
+    "boardToken": "biryanibykilo"
+  },
+  {
+    "name": "Bizongo",
+    "url": "https://www.bizongo.com/careers",
+    "ats": "unknown",
+    "boardToken": "bizongo"
+  },
+  {
+    "name": "Blackrock India",
+    "url": "https://careers.blackrock.com/",
+    "ats": "unknown",
+    "boardToken": "blackrockindia"
+  },
+  {
+    "name": "BluSmart",
+    "url": "https://www.blu-smart.com/careers",
+    "ats": "unknown",
+    "boardToken": "blusmart"
+  },
+  {
+    "name": "BMW TechWorks India",
+    "ats": "unknown",
+    "boardToken": "bmwtechworksindia"
+  },
+  {
+    "name": "BNP Paribas",
+    "url": "https://group.bnpparibas/en/careers",
+    "ats": "unknown",
+    "boardToken": "bnpparibas"
+  },
+  {
+    "name": "BNY (BNY Mellon)",
+    "ats": "unknown",
+    "boardToken": "bnybnymellon"
+  },
+  {
+    "name": "boAt",
+    "url": "https://www.boat-lifestyle.com/careers",
+    "ats": "unknown",
+    "boardToken": "boat"
+  },
+  {
+    "name": "Boeing India",
+    "ats": "unknown",
+    "boardToken": "boeingindia"
+  },
+  {
+    "name": "Bombay Shaving Company",
+    "url": "https://www.bombayshavingcompany.com/careers",
+    "ats": "unknown",
+    "boardToken": "bombayshavingcompany"
+  },
+  {
+    "name": "Booking.com",
+    "ats": "unknown",
+    "boardToken": "bookingcom"
+  },
+  {
+    "name": "Bosch Global Software Technologies",
+    "ats": "unknown",
+    "boardToken": "boschglobalsoftwaretechnologies"
+  },
+  {
+    "name": "Box8",
+    "url": "https://www.box8.in/careers",
+    "ats": "unknown",
+    "boardToken": "box8"
+  },
+  {
+    "name": "BP",
+    "ats": "unknown",
+    "boardToken": "bp"
+  },
+  {
+    "name": "Bristol Myers Squibb",
+    "ats": "unknown",
+    "boardToken": "bristolmyerssquibb"
+  },
+  {
+    "name": "Broadcom (VMware)",
+    "ats": "unknown",
+    "boardToken": "broadcomvmware"
+  },
+  {
     "name": "BrowserStack",
-    "ats": "greenhouse",
+    "url": "https://www.browserstack.com/careers",
+    "ats": "workday",
     "boardToken": "browserstack"
   },
   {
-    "name": "Vercel",
-    "ats": "lever",
-    "boardToken": "vercel"
+    "name": "BSE",
+    "url": "https://www.bseindia.com/careers",
+    "ats": "unknown",
+    "boardToken": "bse"
   },
   {
-    "name": "Notion",
+    "name": "BT Group (British Telecom)",
+    "ats": "unknown",
+    "boardToken": "btgroupbritishtelecom"
+  },
+  {
+    "name": "Cadence Design Systems",
+    "ats": "unknown",
+    "boardToken": "cadencedesignsystems"
+  },
+  {
+    "name": "Carlsberg",
+    "ats": "unknown",
+    "boardToken": "carlsberg"
+  },
+  {
+    "name": "Cashfree Payments",
+    "ats": "unknown",
+    "boardToken": "cashfreepayments"
+  },
+  {
+    "name": "Cashify",
+    "url": "https://www.cashify.in/careers",
+    "ats": "unknown",
+    "boardToken": "cashify"
+  },
+  {
+    "name": "Caterpillar",
+    "ats": "unknown",
+    "boardToken": "caterpillar"
+  },
+  {
+    "name": "Chaayos",
+    "url": "https://chaayos.com/careers",
+    "ats": "unknown",
+    "boardToken": "chaayos"
+  },
+  {
+    "name": "Chargebee",
+    "ats": "unknown",
+    "boardToken": "chargebee"
+  },
+  {
+    "name": "Chevron (ENGINE)",
+    "ats": "unknown",
+    "boardToken": "chevronengine"
+  },
+  {
+    "name": "Chubb",
+    "ats": "unknown",
+    "boardToken": "chubb"
+  },
+  {
+    "name": "Cigna",
+    "ats": "unknown",
+    "boardToken": "cigna"
+  },
+  {
+    "name": "Cisco India",
+    "url": "https://www.cisco.com/c/en_in/about/careers.html",
+    "ats": "unknown",
+    "boardToken": "ciscoindia"
+  },
+  {
+    "name": "Citi (Citigroup)",
+    "ats": "unknown",
+    "boardToken": "citicitigroup"
+  },
+  {
+    "name": "Clearfeed",
+    "url": "https://clearfeed.ai/careers",
+    "ats": "unknown",
+    "boardToken": "clearfeed"
+  },
+  {
+    "name": "ClearTax (Clear)",
+    "url": "https://cleartax.in/careers",
+    "ats": "unknown",
+    "boardToken": "cleartaxclear"
+  },
+  {
+    "name": "CleverTap",
+    "url": "https://www.clevertap.com/careers/",
+    "ats": "unknown",
+    "boardToken": "clevertap"
+  },
+  {
+    "name": "Cloudflare",
+    "ats": "unknown",
+    "boardToken": "cloudflare"
+  },
+  {
+    "name": "CloudSEK",
+    "url": "https://www.cloudsek.com/careers",
     "ats": "greenhouse",
-    "boardToken": "notion"
+    "boardToken": "embed"
+  },
+  {
+    "name": "Clovia",
+    "url": "https://www.clovia.com/careers",
+    "ats": "unknown",
+    "boardToken": "clovia"
+  },
+  {
+    "name": "Cohere Health",
+    "ats": "unknown",
+    "boardToken": "coherehealth"
+  },
+  {
+    "name": "CoinDCX",
+    "url": "https://coindcx.com/careers",
+    "ats": "unknown",
+    "boardToken": "coindcx"
+  },
+  {
+    "name": "Collins Aerospace",
+    "ats": "unknown",
+    "boardToken": "collinsaerospace"
+  },
+  {
+    "name": "Commvault",
+    "ats": "unknown",
+    "boardToken": "commvault"
+  },
+  {
+    "name": "Continental",
+    "ats": "unknown",
+    "boardToken": "continental"
+  },
+  {
+    "name": "Country Delight",
+    "url": "https://www.countrydelight.in/careers",
+    "ats": "unknown",
+    "boardToken": "countrydelight"
+  },
+  {
+    "name": "Coverfox",
+    "url": "https://www.coverfox.com/careers",
+    "ats": "unknown",
+    "boardToken": "coverfox"
+  },
+  {
+    "name": "CRED",
+    "url": "https://cred.club/careers",
+    "ats": "unknown",
+    "boardToken": "cred"
+  },
+  {
+    "name": "Credit Suisse (UBS)",
+    "url": "https://www.ubs.com/global/en/careers.html",
+    "ats": "unknown",
+    "boardToken": "creditsuisseubs"
+  },
+  {
+    "name": "Culture Machine",
+    "url": "https://www.culturemachine.co/careers",
+    "ats": "unknown",
+    "boardToken": "culturemachine"
+  },
+  {
+    "name": "Cummins",
+    "ats": "unknown",
+    "boardToken": "cummins"
+  },
+  {
+    "name": "CVS Health",
+    "ats": "unknown",
+    "boardToken": "cvshealth"
+  },
+  {
+    "name": "Darwinbox",
+    "ats": "unknown",
+    "boardToken": "darwinbox"
+  },
+  {
+    "name": "Deepwatch",
+    "ats": "unknown",
+    "boardToken": "deepwatch"
+  },
+  {
+    "name": "Dell Technologies",
+    "ats": "unknown",
+    "boardToken": "delltechnologies"
+  },
+  {
+    "name": "Denso",
+    "ats": "unknown",
+    "boardToken": "denso"
+  },
+  {
+    "name": "Deutsche Telekom (T-Systems)",
+    "ats": "unknown",
+    "boardToken": "deutschetelekomtsystems"
+  },
+  {
+    "name": "Dezerv",
+    "url": "https://www.dezerv.in/careers",
+    "ats": "unknown",
+    "boardToken": "dezerv"
+  },
+  {
+    "name": "Dhan",
+    "url": "https://dhan.co/careers",
+    "ats": "unknown",
+    "boardToken": "dhan"
+  },
+  {
+    "name": "DotPe",
+    "url": "https://www.dotpe.in/careers",
+    "ats": "unknown",
+    "boardToken": "dotpe"
+  },
+  {
+    "name": "Dream11",
+    "url": "https://www.dream11.com/careers",
+    "ats": "unknown",
+    "boardToken": "dream11"
+  },
+  {
+    "name": "eBay",
+    "ats": "unknown",
+    "boardToken": "ebay"
+  },
+  {
+    "name": "Elevance Health",
+    "ats": "unknown",
+    "boardToken": "elevancehealth"
+  },
+  {
+    "name": "Eli Lilly Technology Center",
+    "ats": "unknown",
+    "boardToken": "elilillytechnologycenter"
+  },
+  {
+    "name": "Emeritus",
+    "url": "https://www.emeritus.org/careers",
+    "ats": "unknown",
+    "boardToken": "emeritus"
+  },
+  {
+    "name": "Ericsson",
+    "ats": "unknown",
+    "boardToken": "ericsson"
+  },
+  {
+    "name": "Expedia Group",
+    "ats": "unknown",
+    "boardToken": "expediagroup"
+  },
+  {
+    "name": "F5 Networks",
+    "ats": "unknown",
+    "boardToken": "f5networks"
+  },
+  {
+    "name": "FactSet",
+    "ats": "unknown",
+    "boardToken": "factset"
+  },
+  {
+    "name": "FedEx",
+    "ats": "unknown",
+    "boardToken": "fedex"
+  },
+  {
+    "name": "Fi Money",
+    "url": "https://fi.money/careers",
+    "ats": "lever",
+    "boardToken": "epifi"
+  },
+  {
+    "name": "Fidelity Investments",
+    "url": "https://jobs.fidelity.com/",
+    "ats": "unknown",
+    "boardToken": "fidelityinvestments"
+  },
+  {
+    "name": "FireBolt",
+    "url": "https://www.fireboltt.com/careers",
+    "ats": "unknown",
+    "boardToken": "firebolt"
+  },
+  {
+    "name": "Flipkart",
+    "url": "https://www.flipkartcareers.com/",
+    "ats": "unknown",
+    "boardToken": "flipkart"
+  },
+  {
+    "name": "Ford India (GCC)",
+    "ats": "unknown",
+    "boardToken": "fordindiagcc"
+  },
+  {
+    "name": "Fortinet",
+    "ats": "unknown",
+    "boardToken": "fortinet"
+  },
+  {
+    "name": "FreshToHome",
+    "url": "https://www.freshtohome.com/careers",
+    "ats": "unknown",
+    "boardToken": "freshtohome"
+  },
+  {
+    "name": "Freshworks",
+    "ats": "unknown",
+    "boardToken": "freshworks"
+  },
+  {
+    "name": "Freshworks (BLR)",
+    "url": "https://www.freshworks.com/careers/",
+    "ats": "unknown",
+    "boardToken": "freshworksblr"
+  },
+  {
+    "name": "Games24x7",
+    "url": "https://www.games24x7.com/careers",
+    "ats": "unknown",
+    "boardToken": "games24x7"
+  },
+  {
+    "name": "Gap Inc.",
+    "ats": "unknown",
+    "boardToken": "gapinc"
+  },
+  {
+    "name": "GE Aerospace",
+    "ats": "unknown",
+    "boardToken": "geaerospace"
+  },
+  {
+    "name": "GE HealthCare",
+    "ats": "unknown",
+    "boardToken": "gehealthcare"
+  },
+  {
+    "name": "GE Vernova",
+    "ats": "unknown",
+    "boardToken": "gevernova"
+  },
+  {
+    "name": "General Motors Technical Center India",
+    "ats": "unknown",
+    "boardToken": "generalmotorstechnicalcenterindia"
+  },
+  {
+    "name": "GoBOLT",
+    "url": "https://www.gobolt.in/careers",
+    "ats": "unknown",
+    "boardToken": "gobolt"
+  },
+  {
+    "name": "Godrej Industries",
+    "url": "https://www.godrejindustries.com/careers.aspx",
+    "ats": "unknown",
+    "boardToken": "godrejindustries"
+  },
+  {
+    "name": "GoKwik",
+    "url": "https://www.gokwik.co/careers",
+    "ats": "unknown",
+    "boardToken": "gokwik"
+  },
+  {
+    "name": "Groww",
+    "url": "https://groww.in/careers",
+    "ats": "unknown",
+    "boardToken": "groww"
+  },
+  {
+    "name": "GSK",
+    "ats": "unknown",
+    "boardToken": "gsk"
+  },
+  {
+    "name": "H&M",
+    "ats": "unknown",
+    "boardToken": "hm"
+  },
+  {
+    "name": "Happilo",
+    "url": "https://www.happilo.com/careers",
+    "ats": "unknown",
+    "boardToken": "happilo"
+  },
+  {
+    "name": "Haptik (Jio)",
+    "url": "https://www.haptik.ai/careers",
+    "ats": "unknown",
+    "boardToken": "haptikjio"
+  },
+  {
+    "name": "Hasura",
+    "url": "https://hasura.io/careers",
+    "ats": "unknown",
+    "boardToken": "hasura"
+  },
+  {
+    "name": "HDFC Bank",
+    "url": "https://www.hdfcbank.com/personal/about-us/careers",
+    "ats": "unknown",
+    "boardToken": "hdfcbank"
+  },
+  {
+    "name": "Hilton",
+    "ats": "unknown",
+    "boardToken": "hilton"
+  },
+  {
+    "name": "Honeywell",
+    "ats": "unknown",
+    "boardToken": "honeywell"
+  },
+  {
+    "name": "Housing.com",
+    "url": "https://housing.com/careers",
+    "ats": "unknown",
+    "boardToken": "housingcom"
+  },
+  {
+    "name": "HP Inc.",
+    "ats": "unknown",
+    "boardToken": "hpinc"
+  },
+  {
+    "name": "HPE (Hewlett Packard Enterprise)",
+    "ats": "unknown",
+    "boardToken": "hpehewlettpackardenterprise"
+  },
+  {
+    "name": "Hyundai / Kia India R&D",
+    "ats": "unknown",
+    "boardToken": "hyundaikiaindiard"
+  },
+  {
+    "name": "IBM India (Software Labs)",
+    "ats": "unknown",
+    "boardToken": "ibmindiasoftwarelabs"
+  },
+  {
+    "name": "ICE (Intercontinental Exchange)",
+    "url": "https://www.ice.com/careers",
+    "ats": "unknown",
+    "boardToken": "iceintercontinentalexchange"
+  },
+  {
+    "name": "ICICI Bank",
+    "url": "https://www.icicicareers.com/",
+    "ats": "unknown",
+    "boardToken": "icicibank"
+  },
+  {
+    "name": "IIFL Finance",
+    "url": "https://www.iifl.com/careers",
+    "ats": "unknown",
+    "boardToken": "iiflfinance"
+  },
+  {
+    "name": "IKEA",
+    "ats": "unknown",
+    "boardToken": "ikea"
+  },
+  {
+    "name": "ImpactGuru",
+    "url": "https://www.impactguru.com/careers",
+    "ats": "unknown",
+    "boardToken": "impactguru"
+  },
+  {
+    "name": "InCred",
+    "url": "https://www.incred.com/careers",
+    "ats": "unknown",
+    "boardToken": "incred"
+  },
+  {
+    "name": "Informatica",
+    "ats": "unknown",
+    "boardToken": "informatica"
+  },
+  {
+    "name": "Infra.Market",
+    "url": "https://www.infra.market/careers",
+    "ats": "unknown",
+    "boardToken": "inframarket"
+  },
+  {
+    "name": "Innovaccer",
+    "ats": "unknown",
+    "boardToken": "innovaccer"
+  },
+  {
+    "name": "Instamojo",
+    "url": "https://www.instamojo.com/careers/",
+    "ats": "unknown",
+    "boardToken": "instamojo"
+  },
+  {
+    "name": "Intel India",
+    "ats": "unknown",
+    "boardToken": "intelindia"
+  },
+  {
+    "name": "Jar App",
+    "url": "https://www.myjar.app/careers",
+    "ats": "unknown",
+    "boardToken": "jarapp"
+  },
+  {
+    "name": "John Deere",
+    "ats": "unknown",
+    "boardToken": "johndeere"
+  },
+  {
+    "name": "Johnson & Johnson",
+    "ats": "unknown",
+    "boardToken": "johnsonjohnson"
+  },
+  {
+    "name": "JP Morgan Chase",
+    "url": "https://careers.jpmorgan.com/",
+    "ats": "unknown",
+    "boardToken": "jpmorganchase"
+  },
+  {
+    "name": "JPMorgan Chase",
+    "ats": "unknown",
+    "boardToken": "jpmorganchase"
+  },
+  {
+    "name": "Juniper Networks",
+    "ats": "unknown",
+    "boardToken": "junipernetworks"
+  },
+  {
+    "name": "Jupiter Money",
+    "url": "https://jupiter.money/careers/",
+    "ats": "unknown",
+    "boardToken": "jupitermoney"
+  },
+  {
+    "name": "Juspay",
+    "url": "https://juspay.in/careers",
+    "ats": "unknown",
+    "boardToken": "juspay"
+  },
+  {
+    "name": "Kissht",
+    "url": "https://www.kissht.com/careers",
+    "ats": "unknown",
+    "boardToken": "kissht"
+  },
+  {
+    "name": "Kotak Mahindra Bank",
+    "url": "https://www.kotak.com/en/careers.html",
+    "ats": "unknown",
+    "boardToken": "kotakmahindrabank"
+  },
+  {
+    "name": "Kuvera",
+    "url": "https://kuvera.in/careers",
+    "ats": "unknown",
+    "boardToken": "kuvera"
+  },
+  {
+    "name": "Lenskart",
+    "url": "https://www.lenskart.com/careers",
+    "ats": "unknown",
+    "boardToken": "lenskart"
+  },
+  {
+    "name": "Levi Strauss",
+    "ats": "unknown",
+    "boardToken": "levistrauss"
+  },
+  {
+    "name": "Livspace",
+    "url": "https://www.livspace.com/careers",
+    "ats": "unknown",
+    "boardToken": "livspace"
+  },
+  {
+    "name": "LoanTap",
+    "url": "https://www.loantap.in/careers",
+    "ats": "unknown",
+    "boardToken": "loantap"
+  },
+  {
+    "name": "Loop Health",
+    "url": "https://www.loophealth.com/careers",
+    "ats": "unknown",
+    "boardToken": "loophealth"
+  },
+  {
+    "name": "Lowe's India",
+    "ats": "unknown",
+    "boardToken": "lowesindia"
+  },
+  {
+    "name": "LSEG (Refinitiv)",
+    "ats": "unknown",
+    "boardToken": "lsegrefinitiv"
+  },
+  {
+    "name": "Lufthansa",
+    "ats": "unknown",
+    "boardToken": "lufthansa"
+  },
+  {
+    "name": "Maersk Global Service Centre",
+    "ats": "unknown",
+    "boardToken": "maerskglobalservicecentre"
+  },
+  {
+    "name": "Magicpin",
+    "url": "https://magicpin.in/careers",
+    "ats": "unknown",
+    "boardToken": "magicpin"
+  },
+  {
+    "name": "Mahindra & Mahindra (Tech)",
+    "url": "https://www.mahindra.com/careers",
+    "ats": "unknown",
+    "boardToken": "mahindramahindratech"
+  },
+  {
+    "name": "Mamaearth",
+    "url": "https://mamaearth.in/careers",
+    "ats": "unknown",
+    "boardToken": "mamaearth"
+  },
+  {
+    "name": "Marks & Spencer",
+    "ats": "unknown",
+    "boardToken": "marksspencer"
+  },
+  {
+    "name": "Marriott Tech Hub",
+    "ats": "unknown",
+    "boardToken": "marriotttechhub"
+  },
+  {
+    "name": "Mastercard India",
+    "url": "https://www.mastercard.com/careers",
+    "ats": "workday",
+    "boardToken": "mastercardindia"
+  },
+  {
+    "name": "mCaffeine",
+    "url": "https://www.mcaffeine.com/careers",
+    "ats": "unknown",
+    "boardToken": "mcaffeine"
+  },
+  {
+    "name": "McDonald's GCC",
+    "ats": "unknown",
+    "boardToken": "mcdonaldsgcc"
+  },
+  {
+    "name": "Medtronic",
+    "ats": "unknown",
+    "boardToken": "medtronic"
+  },
+  {
+    "name": "Meesho",
+    "url": "https://meesho.io/careers",
+    "ats": "unknown",
+    "boardToken": "meesho"
+  },
+  {
+    "name": "Merck (MSD)",
+    "ats": "unknown",
+    "boardToken": "merckmsd"
+  },
+  {
+    "name": "MetLife India",
+    "ats": "unknown",
+    "boardToken": "metlifeindia"
+  },
+  {
+    "name": "Micron Technology",
+    "ats": "unknown",
+    "boardToken": "microntechnology"
+  },
+  {
+    "name": "Microsoft (MSIDC)",
+    "ats": "unknown",
+    "boardToken": "microsoftmsidc"
+  },
+  {
+    "name": "Mokobara",
+    "url": "https://www.mokobara.com/careers",
+    "ats": "unknown",
+    "boardToken": "mokobara"
+  },
+  {
+    "name": "MoneyView",
+    "url": "https://www.moneyview.in/careers",
+    "ats": "unknown",
+    "boardToken": "moneyview"
+  },
+  {
+    "name": "Moody's",
+    "ats": "unknown",
+    "boardToken": "moodys"
+  },
+  {
+    "name": "MSCI",
+    "ats": "unknown",
+    "boardToken": "msci"
+  },
+  {
+    "name": "Mswipe",
+    "url": "https://www.mswipe.com/careers",
+    "ats": "unknown",
+    "boardToken": "mswipe"
+  },
+  {
+    "name": "Mudrex",
+    "url": "https://mudrex.com/careers",
+    "ats": "unknown",
+    "boardToken": "mudrex"
+  },
+  {
+    "name": "MX Player",
+    "url": "https://www.mxplayer.in/careers",
+    "ats": "unknown",
+    "boardToken": "mxplayer"
+  },
+  {
+    "name": "Myntra",
+    "url": "https://www.myntra.com/careers",
+    "ats": "unknown",
+    "boardToken": "myntra"
+  },
+  {
+    "name": "Nat Habit",
+    "url": "https://www.nathabit.in/careers",
+    "ats": "unknown",
+    "boardToken": "nathabit"
+  },
+  {
+    "name": "NeoGrowth",
+    "url": "https://www.neogrowth.in/careers",
+    "ats": "unknown",
+    "boardToken": "neogrowth"
+  },
+  {
+    "name": "NetApp",
+    "ats": "unknown",
+    "boardToken": "netapp"
+  },
+  {
+    "name": "Netcore Cloud",
+    "url": "https://netcorecloud.com/careers/",
+    "ats": "unknown",
+    "boardToken": "netcorecloud"
+  },
+  {
+    "name": "Nielsen India",
+    "ats": "unknown",
+    "boardToken": "nielsenindia"
+  },
+  {
+    "name": "Nike",
+    "ats": "unknown",
+    "boardToken": "nike"
+  },
+  {
+    "name": "NiYO Solutions",
+    "url": "https://www.goniyo.com/careers",
+    "ats": "unknown",
+    "boardToken": "niyosolutions"
+  },
+  {
+    "name": "NoBroker",
+    "url": "https://www.nobroker.in/careers",
+    "ats": "unknown",
+    "boardToken": "nobroker"
+  },
+  {
+    "name": "Noise",
+    "url": "https://www.gonoise.com/careers",
+    "ats": "unknown",
+    "boardToken": "noise"
+  },
+  {
+    "name": "Nokia",
+    "ats": "unknown",
+    "boardToken": "nokia"
+  },
+  {
+    "name": "Northern Trust",
+    "ats": "unknown",
+    "boardToken": "northerntrust"
+  },
+  {
+    "name": "Novartis",
+    "ats": "unknown",
+    "boardToken": "novartis"
+  },
+  {
+    "name": "NSE (National Stock Exchange)",
+    "url": "https://www.nseindia.com/about-us/careers",
+    "ats": "unknown",
+    "boardToken": "nsenationalstockexchange"
+  },
+  {
+    "name": "Nykaa",
+    "url": "https://www.nykaa.com/careers",
+    "ats": "unknown",
+    "boardToken": "nykaa"
+  },
+  {
+    "name": "Ola",
+    "url": "https://www.olacabs.com/careers",
+    "ats": "unknown",
+    "boardToken": "ola"
+  },
+  {
+    "name": "Ola (Mumbai)",
+    "url": "https://www.olacabs.com/careers",
+    "ats": "unknown",
+    "boardToken": "olamumbai"
+  },
+  {
+    "name": "Onsurity",
+    "url": "https://www.onsurity.com/careers",
+    "ats": "unknown",
+    "boardToken": "onsurity"
+  },
+  {
+    "name": "Optum (UnitedHealth Group)",
+    "ats": "unknown",
+    "boardToken": "optumunitedhealthgroup"
+  },
+  {
+    "name": "Palo Alto Networks",
+    "ats": "unknown",
+    "boardToken": "paloaltonetworks"
+  },
+  {
+    "name": "PayPal",
+    "ats": "unknown",
+    "boardToken": "paypal"
+  },
+  {
+    "name": "Pepperfry",
+    "url": "https://www.pepperfry.com/careers",
+    "ats": "unknown",
+    "boardToken": "pepperfry"
+  },
+  {
+    "name": "PepsiCo",
+    "ats": "unknown",
+    "boardToken": "pepsico"
+  },
+  {
+    "name": "Perfora",
+    "url": "https://www.perfora.in/careers",
+    "ats": "unknown",
+    "boardToken": "perfora"
+  },
+  {
+    "name": "Pfizer",
+    "ats": "unknown",
+    "boardToken": "pfizer"
+  },
+  {
+    "name": "PharmEasy",
+    "url": "https://pharmeasy.in/careers",
+    "ats": "unknown",
+    "boardToken": "pharmeasy"
+  },
+  {
+    "name": "Philips Innovation Campus",
+    "ats": "unknown",
+    "boardToken": "philipsinnovationcampus"
+  },
+  {
+    "name": "PhonePe",
+    "url": "https://www.phonepe.com/careers/",
+    "ats": "unknown",
+    "boardToken": "phonepe"
+  },
+  {
+    "name": "Pilgrim",
+    "url": "https://www.discoverpilgrim.com/careers",
+    "ats": "unknown",
+    "boardToken": "pilgrim"
+  },
+  {
+    "name": "Pine Labs",
+    "url": "https://www.pinelabs.com/careers",
+    "ats": "unknown",
+    "boardToken": "pinelabs"
+  },
+  {
+    "name": "Plum Goodness",
+    "url": "https://plumgoodness.com/careers",
+    "ats": "unknown",
+    "boardToken": "plumgoodness"
+  },
+  {
+    "name": "Pocket Aces",
+    "url": "https://www.pocketaces.in/careers",
+    "ats": "unknown",
+    "boardToken": "pocketaces"
+  },
+  {
+    "name": "Porter",
+    "url": "https://porter.in/careers",
+    "ats": "unknown",
+    "boardToken": "porter"
+  },
+  {
+    "name": "Postman",
+    "url": "https://www.postman.com/careers/",
+    "ats": "unknown",
+    "boardToken": "postman"
+  },
+  {
+    "name": "Pratilipi",
+    "url": "https://pratilipi.com/careers",
+    "ats": "unknown",
+    "boardToken": "pratilipi"
+  },
+  {
+    "name": "Purplle",
+    "url": "https://www.purplle.com/careers",
+    "ats": "unknown",
+    "boardToken": "purplle"
+  },
+  {
+    "name": "Qualcomm",
+    "url": "https://www.qualcomm.com/company/careers",
+    "ats": "unknown",
+    "boardToken": "qualcomm"
+  },
+  {
+    "name": "Rakuten India",
+    "ats": "unknown",
+    "boardToken": "rakutenindia"
+  },
+  {
+    "name": "Rapido",
+    "url": "https://www.rapido.bike/careers",
+    "ats": "unknown",
+    "boardToken": "rapido"
+  },
+  {
+    "name": "Razorpay",
+    "url": "https://razorpay.com/careers/",
+    "ats": "greenhouse",
+    "boardToken": "razorpaysoftwareprivatelimited"
+  },
+  {
+    "name": "Rebel Foods",
+    "url": "https://www.rebelfoods.com/careers",
+    "ats": "unknown",
+    "boardToken": "rebelfoods"
+  },
+  {
+    "name": "Reliance Jio",
+    "url": "https://careers.jio.com/",
+    "ats": "unknown",
+    "boardToken": "reliancejio"
+  },
+  {
+    "name": "RNTBCI (Renault Nissan)",
+    "ats": "unknown",
+    "boardToken": "rntbcirenaultnissan"
+  },
+  {
+    "name": "Roche",
+    "ats": "unknown",
+    "boardToken": "roche"
+  },
+  {
+    "name": "Rolls-Royce",
+    "ats": "unknown",
+    "boardToken": "rollsroyce"
+  },
+  {
+    "name": "S&P Global",
+    "ats": "unknown",
+    "boardToken": "spglobal"
+  },
+  {
+    "name": "Safe Security",
+    "url": "https://www.safe.security/careers",
+    "ats": "unknown",
+    "boardToken": "safesecurity"
+  },
+  {
+    "name": "Samsung R&D",
+    "url": "https://www.samsung.com/in/aboutsamsung/careers/",
+    "ats": "workday",
+    "boardToken": "samsungrd"
+  },
+  {
+    "name": "Sanofi",
+    "ats": "unknown",
+    "boardToken": "sanofi"
+  },
+  {
+    "name": "SAP Labs",
+    "url": "https://www.sap.com/careers.html",
+    "ats": "unknown",
+    "boardToken": "saplabs"
+  },
+  {
+    "name": "Sarvam AI",
+    "url": "https://www.sarvam.ai/careers",
+    "ats": "unknown",
+    "boardToken": "sarvamai"
+  },
+  {
+    "name": "Saveo",
+    "url": "https://www.saveo.in/careers",
+    "ats": "unknown",
+    "boardToken": "saveo"
+  },
+  {
+    "name": "Schneider Electric",
+    "ats": "unknown",
+    "boardToken": "schneiderelectric"
+  },
+  {
+    "name": "Scripbox",
+    "url": "https://www.scripbox.com/careers",
+    "ats": "unknown",
+    "boardToken": "scripbox"
+  },
+  {
+    "name": "ServiceNow",
+    "ats": "unknown",
+    "boardToken": "servicenow"
+  },
+  {
+    "name": "Shadowfax",
+    "url": "https://www.shadowfax.in/careers",
+    "ats": "unknown",
+    "boardToken": "shadowfax"
+  },
+  {
+    "name": "ShareChat",
+    "ats": "unknown",
+    "boardToken": "sharechat"
+  },
+  {
+    "name": "Sharekhan",
+    "url": "https://www.sharekhan.com/careers",
+    "ats": "unknown",
+    "boardToken": "sharekhan"
+  },
+  {
+    "name": "Shell",
+    "ats": "unknown",
+    "boardToken": "shell"
+  },
+  {
+    "name": "Siemens",
+    "ats": "unknown",
+    "boardToken": "siemens"
+  },
+  {
+    "name": "Siemens Healthineers",
+    "ats": "unknown",
+    "boardToken": "siemenshealthineers"
+  },
+  {
+    "name": "SilverPush",
+    "url": "https://silverpush.co/careers",
+    "ats": "unknown",
+    "boardToken": "silverpush"
+  },
+  {
+    "name": "Simpl",
+    "url": "https://getsimpl.com/careers",
+    "ats": "unknown",
+    "boardToken": "simpl"
+  },
+  {
+    "name": "Simplilearn",
+    "url": "https://www.simplilearn.com/careers",
+    "ats": "unknown",
+    "boardToken": "simplilearn"
+  },
+  {
+    "name": "Skit.ai",
+    "url": "https://skit.ai/careers",
+    "ats": "unknown",
+    "boardToken": "skitai"
+  },
+  {
+    "name": "SLB (Schlumberger)",
+    "ats": "unknown",
+    "boardToken": "slbschlumberger"
+  },
+  {
+    "name": "Slice",
+    "url": "https://www.sliceit.com/careers",
+    "ats": "unknown",
+    "boardToken": "slice"
+  },
+  {
+    "name": "Smallcase",
+    "url": "https://www.smallcase.com/careers",
+    "ats": "unknown",
+    "boardToken": "smallcase"
+  },
+  {
+    "name": "Societe Generale GSC",
+    "ats": "unknown",
+    "boardToken": "societegeneralegsc"
+  },
+  {
+    "name": "Stable Money",
+    "url": "https://www.stablemoney.in/careers",
+    "ats": "unknown",
+    "boardToken": "stablemoney"
+  },
+  {
+    "name": "Stanza Living",
+    "url": "https://www.stanzaliving.com/careers",
+    "ats": "unknown",
+    "boardToken": "stanzaliving"
+  },
+  {
+    "name": "Stashfin",
+    "url": "https://www.stashfin.com/careers",
+    "ats": "unknown",
+    "boardToken": "stashfin"
+  },
+  {
+    "name": "State Street",
+    "ats": "unknown",
+    "boardToken": "statestreet"
+  },
+  {
+    "name": "SUGAR Cosmetics",
+    "url": "https://www.sugarcosmetics.com/careers",
+    "ats": "unknown",
+    "boardToken": "sugarcosmetics"
+  },
+  {
+    "name": "Swiggy",
+    "url": "https://careers.swiggy.com/",
+    "ats": "unknown",
+    "boardToken": "swiggy"
+  },
+  {
+    "name": "Swiss Re",
+    "ats": "unknown",
+    "boardToken": "swissre"
+  },
+  {
+    "name": "Synchrony Financial",
+    "ats": "unknown",
+    "boardToken": "synchronyfinancial"
+  },
+  {
+    "name": "Synopsys",
+    "ats": "unknown",
+    "boardToken": "synopsys"
+  },
+  {
+    "name": "T-Mobile",
+    "ats": "unknown",
+    "boardToken": "tmobile"
+  },
+  {
+    "name": "Target Corporation India",
+    "ats": "unknown",
+    "boardToken": "targetcorporationindia"
+  },
+  {
+    "name": "Target India",
+    "url": "https://corporate.target.com/careers",
+    "ats": "workday",
+    "boardToken": "targetindia"
+  },
+  {
+    "name": "Tata Capital",
+    "url": "https://www.tatacapital.com/careers.html",
+    "ats": "unknown",
+    "boardToken": "tatacapital"
+  },
+  {
+    "name": "Tata Communications",
+    "url": "https://www.tatacommunications.com/careers/",
+    "ats": "unknown",
+    "boardToken": "tatacommunications"
+  },
+  {
+    "name": "Tata Elxsi",
+    "url": "https://www.tataelxsi.com/careers",
+    "ats": "unknown",
+    "boardToken": "tataelxsi"
+  },
+  {
+    "name": "Tesco",
+    "ats": "unknown",
+    "boardToken": "tesco"
+  },
+  {
+    "name": "Texas Instruments",
+    "ats": "unknown",
+    "boardToken": "texasinstruments"
+  },
+  {
+    "name": "The Man Company",
+    "url": "https://www.themancompany.com/careers",
+    "ats": "unknown",
+    "boardToken": "themancompany"
+  },
+  {
+    "name": "Thermo Fisher Scientific",
+    "ats": "unknown",
+    "boardToken": "thermofisherscientific"
+  },
+  {
+    "name": "Traya Health",
+    "url": "https://traya.health/careers",
+    "ats": "unknown",
+    "boardToken": "trayahealth"
+  },
+  {
+    "name": "Turtlemint",
+    "url": "https://www.turtlemint.com/careers",
+    "ats": "unknown",
+    "boardToken": "turtlemint"
+  },
+  {
+    "name": "Udaan",
+    "url": "https://udaan.com/careers",
+    "ats": "unknown",
+    "boardToken": "udaan"
+  },
+  {
+    "name": "Unicommerce",
+    "url": "https://unicommerce.com/careers/",
+    "ats": "unknown",
+    "boardToken": "unicommerce"
+  },
+  {
+    "name": "upGrad",
+    "url": "https://www.upgrad.com/careers/",
+    "ats": "unknown",
+    "boardToken": "upgrad"
+  },
+  {
+    "name": "Upstox",
+    "url": "https://upstox.com/careers/",
+    "ats": "unknown",
+    "boardToken": "upstox"
+  },
+  {
+    "name": "Vakilsearch",
+    "url": "https://www.vakilsearch.com/careers",
+    "ats": "unknown",
+    "boardToken": "vakilsearch"
+  },
+  {
+    "name": "Vanguard",
+    "ats": "unknown",
+    "boardToken": "vanguard"
+  },
+  {
+    "name": "Verizon",
+    "ats": "unknown",
+    "boardToken": "verizon"
+  },
+  {
+    "name": "Vested Finance",
+    "url": "https://www.vestedfinance.com/careers",
+    "ats": "unknown",
+    "boardToken": "vestedfinance"
+  },
+  {
+    "name": "Vinculum",
+    "url": "https://www.vinculumgroup.com/careers",
+    "ats": "unknown",
+    "boardToken": "vinculum"
+  },
+  {
+    "name": "Visa",
+    "ats": "unknown",
+    "boardToken": "visa"
+  },
+  {
+    "name": "VMware (Broadcom)",
+    "url": "https://www.vmware.com/careers.html",
+    "ats": "unknown",
+    "boardToken": "vmwarebroadcom"
+  },
+  {
+    "name": "Vodafone Intelligent Solutions",
+    "ats": "unknown",
+    "boardToken": "vodafoneintelligentsolutions"
+  },
+  {
+    "name": "Walmart Global Tech",
+    "url": "https://careers.walmart.com/",
+    "ats": "unknown",
+    "boardToken": "walmartglobaltech"
+  },
+  {
+    "name": "WareIQ",
+    "url": "https://www.wareiq.com/careers",
+    "ats": "unknown",
+    "boardToken": "wareiq"
+  },
+  {
+    "name": "WebEngage",
+    "url": "https://webengage.com/careers/",
+    "ats": "unknown",
+    "boardToken": "webengage"
+  },
+  {
+    "name": "Wells Fargo",
+    "ats": "unknown",
+    "boardToken": "wellsfargo"
+  },
+  {
+    "name": "Western Digital",
+    "ats": "unknown",
+    "boardToken": "westerndigital"
+  },
+  {
+    "name": "Western Union",
+    "ats": "unknown",
+    "boardToken": "westernunion"
+  },
+  {
+    "name": "Whatfix",
+    "ats": "unknown",
+    "boardToken": "whatfix"
+  },
+  {
+    "name": "Wint Wealth",
+    "url": "https://www.wintwealth.com/careers",
+    "ats": "unknown",
+    "boardToken": "wintwealth"
+  },
+  {
+    "name": "Workday",
+    "ats": "unknown",
+    "boardToken": "workday"
+  },
+  {
+    "name": "WOW Skin Science",
+    "url": "https://www.buywow.in/careers",
+    "ats": "unknown",
+    "boardToken": "wowskinscience"
+  },
+  {
+    "name": "Yulu",
+    "url": "https://www.yulu.bike/careers",
+    "ats": "unknown",
+    "boardToken": "yulu"
+  },
+  {
+    "name": "Zepto",
+    "url": "https://www.zeptonow.com/careers",
+    "ats": "unknown",
+    "boardToken": "zepto"
+  },
+  {
+    "name": "Zerodha",
+    "url": "https://zerodha.com/careers",
+    "ats": "unknown",
+    "boardToken": "zerodha"
+  },
+  {
+    "name": "Zerodha (Mumbai)",
+    "url": "https://zerodha.com/careers",
+    "ats": "unknown",
+    "boardToken": "zerodhamumbai"
+  },
+  {
+    "name": "ZF Group",
+    "ats": "unknown",
+    "boardToken": "zfgroup"
+  },
+  {
+    "name": "Zoho",
+    "ats": "unknown",
+    "boardToken": "zoho"
+  },
+  {
+    "name": "Zoho (BLR)",
+    "url": "https://www.zoho.com/careers/",
+    "ats": "unknown",
+    "boardToken": "zohoblr"
+  },
+  {
+    "name": "Zurich Insurance",
+    "ats": "unknown",
+    "boardToken": "zurichinsurance"
+  },
+  {
+    "name": "Accenture",
+    "url": "https://www.accenture.com/in-en/careers",
+    "ats": "workday",
+    "boardToken": "accenture"
+  },
+  {
+    "name": "Aditya Birla Capital",
+    "url": "https://www.adityabirlacapital.com/careers",
+    "ats": "unknown",
+    "boardToken": "adityabirlacapital"
+  },
+  {
+    "name": "Bajaj Finserv",
+    "url": "https://www.bajajfinserv.in/careers",
+    "ats": "unknown",
+    "boardToken": "bajajfinserv"
+  },
+  {
+    "name": "Birlasoft",
+    "ats": "unknown",
+    "boardToken": "birlasoft"
+  },
+  {
+    "name": "Capgemini",
+    "url": "https://www.capgemini.com/in-en/careers/",
+    "ats": "unknown",
+    "boardToken": "capgemini"
+  },
+  {
+    "name": "Coforge",
+    "ats": "unknown",
+    "boardToken": "coforge"
+  },
+  {
+    "name": "Cognizant",
+    "url": "https://careers.cognizant.com/",
+    "ats": "unknown",
+    "boardToken": "cognizant"
+  },
+  {
+    "name": "Cyient",
+    "ats": "unknown",
+    "boardToken": "cyient"
+  },
+  {
+    "name": "Deloitte India",
+    "url": "https://www.deloitte.com/in/en/careers.html",
+    "ats": "unknown",
+    "boardToken": "deloitteindia"
+  },
+  {
+    "name": "Deloitte USI",
+    "ats": "unknown",
+    "boardToken": "deloitteusi"
+  },
+  {
+    "name": "EY GDS (EY Global Delivery Services)",
+    "ats": "unknown",
+    "boardToken": "eygdseyglobaldeliveryservices"
+  },
+  {
+    "name": "EY India",
+    "url": "https://www.ey.com/en_in/careers",
+    "ats": "unknown",
+    "boardToken": "eyindia"
+  },
+  {
+    "name": "GlobalLogic (Hitachi)",
+    "ats": "unknown",
+    "boardToken": "globallogichitachi"
+  },
+  {
+    "name": "Godrej Infotech",
+    "url": "https://www.godrejinfotech.com/careers",
+    "ats": "unknown",
+    "boardToken": "godrejinfotech"
+  },
+  {
+    "name": "HCL Technologies",
+    "url": "https://www.hcltech.com/careers",
+    "ats": "unknown",
+    "boardToken": "hcltechnologies"
+  },
+  {
+    "name": "HCLTech",
+    "ats": "unknown",
+    "boardToken": "hcltech"
+  },
+  {
+    "name": "Hexaware",
+    "url": "https://hexaware.com/careers/",
+    "ats": "unknown",
+    "boardToken": "hexaware"
+  },
+  {
+    "name": "Infosys",
+    "url": "https://www.infosys.com/careers/",
+    "ats": "unknown",
+    "boardToken": "infosys"
+  },
+  {
+    "name": "Iris Software",
+    "ats": "unknown",
+    "boardToken": "irissoftware"
+  },
+  {
+    "name": "KPMG Global Services",
+    "ats": "unknown",
+    "boardToken": "kpmgglobalservices"
+  },
+  {
+    "name": "KPMG India",
+    "url": "https://home.kpmg/in/careers.html",
+    "ats": "unknown",
+    "boardToken": "kpmgindia"
+  },
+  {
+    "name": "L&T Technology Services",
+    "ats": "unknown",
+    "boardToken": "lttechnologyservices"
+  },
+  {
+    "name": "Larsen & Toubro Infotech",
+    "url": "https://www.ltimindtree.com/careers/",
+    "ats": "unknown",
+    "boardToken": "larsentoubroinfotech"
+  },
+  {
+    "name": "LTIMindtree",
+    "url": "https://www.ltimindtree.com/careers/",
+    "ats": "unknown",
+    "boardToken": "ltimindtree"
+  },
+  {
+    "name": "Mastek",
+    "url": "https://www.mastek.com/careers/",
+    "ats": "unknown",
+    "boardToken": "mastek"
+  },
+  {
+    "name": "Motilal Oswal",
+    "url": "https://www.motilaloswal.com/careers",
+    "ats": "unknown",
+    "boardToken": "motilaloswal"
+  },
+  {
+    "name": "Mphasis",
+    "url": "https://www.mphasis.com/careers.html",
+    "ats": "unknown",
+    "boardToken": "mphasis"
+  },
+  {
+    "name": "Persistent Systems",
+    "ats": "unknown",
+    "boardToken": "persistentsystems"
+  },
+  {
+    "name": "PwC Acceleration Centers",
+    "ats": "unknown",
+    "boardToken": "pwcaccelerationcenters"
+  },
+  {
+    "name": "PwC India",
+    "url": "https://www.pwc.in/careers.html",
+    "ats": "unknown",
+    "boardToken": "pwcindia"
+  },
+  {
+    "name": "TCS",
+    "url": "https://www.tcs.com/careers",
+    "ats": "unknown",
+    "boardToken": "tcs"
+  },
+  {
+    "name": "Tech Mahindra",
+    "url": "https://careers.techmahindra.com/",
+    "ats": "unknown",
+    "boardToken": "techmahindra"
+  },
+  {
+    "name": "Urban Company",
+    "ats": "unknown",
+    "boardToken": "urbancompany"
+  },
+  {
+    "name": "Virtusa",
+    "ats": "unknown",
+    "boardToken": "virtusa"
+  },
+  {
+    "name": "Wipro",
+    "url": "https://careers.wipro.com/",
+    "ats": "unknown",
+    "boardToken": "wipro"
+  },
+  {
+    "name": "Zensar Technologies",
+    "ats": "unknown",
+    "boardToken": "zensartechnologies"
+  },
+  {
+    "name": "Adobe",
+    "url": "https://www.adobe.com/careers.html",
+    "ats": "unknown",
+    "boardToken": "adobe"
+  },
+  {
+    "name": "Amazon India",
+    "url": "https://www.amazon.jobs/en/",
+    "ats": "unknown",
+    "boardToken": "amazonindia"
+  },
+  {
+    "name": "Atlassian",
+    "url": "https://www.atlassian.com/company/careers",
+    "ats": "unknown",
+    "boardToken": "atlassian"
+  },
+  {
+    "name": "Bank of America",
+    "ats": "unknown",
+    "boardToken": "bankofamerica"
+  },
+  {
+    "name": "Citi India",
+    "url": "https://jobs.citi.com/",
+    "ats": "workday",
+    "boardToken": "citiindia"
+  },
+  {
+    "name": "Deutsche Bank",
+    "url": "https://careers.db.com/",
+    "ats": "unknown",
+    "boardToken": "deutschebank"
+  },
+  {
+    "name": "Goldman Sachs",
+    "url": "https://www.goldmansachs.com/careers/",
+    "ats": "unknown",
+    "boardToken": "goldmansachs"
+  },
+  {
+    "name": "Google India",
+    "url": "https://careers.google.com/",
+    "ats": "unknown",
+    "boardToken": "googleindia"
+  },
+  {
+    "name": "HSBC India",
+    "url": "https://www.hsbc.com/careers",
+    "ats": "unknown",
+    "boardToken": "hsbcindia"
+  },
+  {
+    "name": "Intuit India",
+    "url": "https://www.intuit.com/careers/",
+    "ats": "unknown",
+    "boardToken": "intuitindia"
+  },
+  {
+    "name": "Microsoft",
+    "url": "https://careers.microsoft.com/",
+    "ats": "unknown",
+    "boardToken": "microsoft"
+  },
+  {
+    "name": "Morgan Stanley",
+    "url": "https://www.morganstanley.com/people-opportunities",
+    "ats": "unknown",
+    "boardToken": "morganstanley"
+  },
+  {
+    "name": "Nomura India",
+    "url": "https://www.nomura.com/careers/",
+    "ats": "unknown",
+    "boardToken": "nomuraindia"
+  },
+  {
+    "name": "NVIDIA",
+    "ats": "unknown",
+    "boardToken": "nvidia"
+  },
+  {
+    "name": "Oracle",
+    "url": "https://www.oracle.com/in/careers/",
+    "ats": "unknown",
+    "boardToken": "oracle"
+  },
+  {
+    "name": "Salesforce India",
+    "url": "https://www.salesforce.com/in/company/careers/",
+    "ats": "unknown",
+    "boardToken": "salesforceindia"
+  },
+  {
+    "name": "Standard Chartered",
+    "url": "https://www.sc.com/en/careers/",
+    "ats": "unknown",
+    "boardToken": "standardchartered"
+  },
+  {
+    "name": "UBS",
+    "ats": "unknown",
+    "boardToken": "ubs"
   }
 ]
